@@ -11,19 +11,93 @@ body{
 /* -----------------
     Header Area
 -------------------*/
-
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 87px 120px;
+}
+.logo-area{
+    width: 243px;
+    height: 52px;
+    align-items: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
 /* -----------------
     Menu Area
 -------------------*/
-
+.menu-item{
+    display: flex;
+    margin-top: 8px;
+}
+.menu-item li{
+    list-style: none;
+    padding-right: 34px;
+}
+.menu-item li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
 /* -----------------
     main Area
 -------------------*/
-
+.main-area{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 132px;
+}
+.text-area {
+    width: 582px;
+    height: 270px;
+    margin-top: 55px;
+}
+.text-area h2 {
+    color: black;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 70px;
+    margin-bottom: 16px;
+}
+.text-area p {
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+.text-area a {
+    text-decoration: none;
+    padding: 10px 24px;
+    color: white;
+    background-color: #E02C6D;
+    border-radius: 41px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.fa-arrow-circle-right{
+    padding-left: 8px;
+}
+.img-area{
+    width: 475px;
+    height: 475px;
+    margin-top: -7px;
+    margin-left: 133px;
+}
+.main-area img {
+    width: 440px;
+    height: 414px;
+    padding: 30px 33px 31px 2px;
+}
 /* -----------------
     Brand Area
 -------------------*/
-
+hr{
+    border: 1px solid black;
+}
 /* -----------------
     Collection Area
 -------------------*/
