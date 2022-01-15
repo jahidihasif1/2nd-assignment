@@ -97,8 +97,22 @@ nav{
 /* -----------------
     Brand Area
 -------------------*/
-hr{
+.brans-logo{
+    margin: 100px 165px;
+    Width: 1110px;
+    Height: 110px;
     border: 1px solid black;
+}
+.brans-logo ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Height: 39px;
+    padding: 0 30px;
+}
+.brans-logo li {
+    list-style: none;
+    padding: 0 30px;
 }
 /* -----------------
     Collection Area
