@@ -97,6 +97,13 @@ nav{
 /* -----------------
     Brand Area
 -------------------*/
+.popular-text {
+    color: black;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 70px;
+    text-align: center;
+}
 .brans-logo{
     margin: 59px 165px;
     Width: 1110px;
@@ -185,7 +192,114 @@ nav{
 /* -----------------
     Extra Area
 -------------------*/
-
+.extra-area{
+    margin: 100px 160px;
+    height: 250px;
+}
+.extra-area h2 {
+    text-align: center;
+    color: black;
+    font-weight: 700px;
+    font-size: 52px;
+    line-height: 70px;
+    margin-bottom: 16px;
+}
+.extra-area p {
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+.email-box {
+    display: flex;
+    justify-content: center;
+}
+.extra-area input{
+    width: 500px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.extra-area button{
+    text-decoration: none;
+    padding: 10px 24px;
+    color: white;
+    background-color: #E02C6D;
+    border-radius: 41px;
+    font-weight: 700;
+    font-size: 20px;
+}
+/* -----------------
+    Akash Area
+-------------------*/
+.customer {
+    margin-bottom: 50px;
+}
+.customer h2{
+    text-align: center;
+}
+.reviews {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 150px;
+}
+.review-box{
+    height: 420px;
+    margin: 0 20px;
+    padding: 10px 15px;
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.05), 15px 25px 10px rgba(0, 0, 0, 0.05), 15px 20px 20px rgba(0, 0, 0, 0.05), inset -10px -10px 15px rgba(255, 255, 255, 0.9);
+}
+.review-box p {
+    text-align: justify;
+    height: 365px;
+}
+.review-box h5 {
+    text-align: left;
+}
 /* -----------------
     Footer Area
 -------------------*/
+.last-section {
+    height: 200px;
+    margin: 0px;
+    background-color: #0a0826;
+    padding: 45px;
+}
+.foot-text {
+    margin: -10px 0;
+}
+.last-section h3 {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+.last-section h5 {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+.social-icon {
+    display: flex;
+    justify-content: center;
+}
+.social-icon .si{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.219);
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 15px;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+}
+
+
+
+
+
+
